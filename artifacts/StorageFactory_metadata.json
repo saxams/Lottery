@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "SimpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createSimpoStorageContrac",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "arrayno",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StorageFactory.sol": {
+			"keccak256": "0xb04701105adf6555699cc84ae49a9e001ebc58e1b0ab2e165e63341409275647",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://25369d0a15d6b47fdb0375c0a9b3ab86631cfabeecfd5de243e7daa7ef81b18e",
+				"dweb:/ipfs/QmWRvDAhPyoW4Z335zNYpNTXYFTZg9FWod87efqXSsZ1mp"
+			]
+		},
+		"simpoStorage.sol": {
+			"keccak256": "0xef135e1af27e3e7fb05cb4cf1a873e9e7b06e03f40b591d5b5c2e685a8f5ce9e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4a39f76be4117fa3e59491942d2b3ca7af7fdd3148b904492217f5443dd5e8e2",
+				"dweb:/ipfs/QmPFV1A1VDFfAfJCmbHoSRzVjwjhJbRrEXgEJzfY6YqTvR"
+			]
+		}
+	},
+	"version": 1
+}
